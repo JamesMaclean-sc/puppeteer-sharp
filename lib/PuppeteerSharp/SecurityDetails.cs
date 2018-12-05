@@ -53,13 +53,13 @@ namespace PuppeteerSharp
         /// </summary>
         /// <value>The valid from.</value>
         [JsonProperty]
-        public int ValidFrom { get; internal set; }
+        public long ValidFrom { get; internal set; }
         /// <summary>
         /// Gets the valid to.
         /// </summary>
         /// <value>The valid to.</value>
         [JsonProperty]
-        public int ValidTo { get; internal set; }
+        public long ValidTo { get; internal set; }
         /// <summary>
         /// Gets the protocol.
         /// </summary>
